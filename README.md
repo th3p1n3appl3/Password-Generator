@@ -20,7 +20,7 @@ The main usage of this project is to understand how to work a variety of functio
 
 ## Screenshot
 
-![ScreenShot](https://bashify.io/img/981b532402f94f9598352b22a9b9ca1b)
+![ScreenShot](https://bashify.io/images/E5mfvK)
 
 ## License
 
