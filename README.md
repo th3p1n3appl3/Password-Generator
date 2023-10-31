@@ -20,7 +20,7 @@ The main usage of this project is to understand how to work a variety of functio
 
 ## Screenshot
 
-![ScreenShot](https://bashify.io/images/E5mfvK)
+![ScreenShot](https://i.postimg.cc/15VKGLgk/chrome-Zj-Y17-XSHk-L.png)
 
 ## License
 
