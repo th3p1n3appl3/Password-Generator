@@ -88,6 +88,15 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+// Get references to the slider and slider value elements
+const slider = document.querySelector('#slider');
+const sliderElement = document.querySelector('#slider-value');
+// Add event listener to slider input element
+slider.addEventListener('input', () => {
+  // Update slider value element with current slider value
+  sliderElement.textContent = slider.value;
+});
+
 // Array to store all prompts for passwordOptions
 
 const passwordOptions = 
@@ -97,7 +106,7 @@ const passwordOptions =
  "Do you want your password to contain uppercase characters?"
 ]
 
-let = passwordLength = 8;
+// let = passwordLength = 8;
 
 // Prepare prompts for getPasswordOptions function
 function getPrompt(promptMessage) {
@@ -147,13 +156,19 @@ function generatePassword() {
     emptyArray = emptyArray.concat(upperCasedCharacters)
   }
   
+  if (!emptyArray.length) {
+    alert("You need to pick one option at minimum")
+    return "Hunter2"
+  }
   
-  for (let i = 0; i < passwordLength; i++) {
+  for (let i = 0; i < parseInt(sliderElement.innerHTML); i++) {
     let nextCharacter = getRandom(emptyArray);
     result += getRandom(emptyArray);
     
   } 
   return result
+
+  
 }
 
 // Get references to the #generate element
@@ -169,5 +184,7 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
+
+
 
 
