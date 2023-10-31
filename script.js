@@ -88,11 +88,25 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+// Array to store all prompts for passwordOptions
+
+const passwordOptions = 
+["Do you want your password to contain special characters?",
+ "Do you want your password to contain number characters?",
+ "Do you want your password to contain lowercase characters?",
+ "Do you want your password to contain uppercase characters?"
+]
+
+function getPrompt(promptMessage) {
+  return confirm(promptMessage)
+}
+
 // Function to prompt user for password options
 function getPasswordOptions() {
-
-  
+  return passwordOptions.map(getPrompt)
 }
+console.log(getPasswordOptions());
+
 
 // Function for getting a random element from an array
 function getRandom(arr) {
