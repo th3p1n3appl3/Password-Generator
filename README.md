@@ -8,7 +8,7 @@ The user gets prompted to decide which type of characters he/she would like to i
 
 I originally overread in the instructions that the password length is supposed to be also customisable for which I chose the implementation of a slide bar instead.
 
-Here is the link to the deployed application: https://th3p1n3appl3.github.io/Password-Generator/
+Here is the link to the deployed application: https://th3p1n3appl3.github.io/code-quiz/
 
 ## Installation
 
@@ -20,7 +20,7 @@ The main usage of this project is to understand how to work a variety of functio
 
 ## Screenshot
 
-![ScreenShot](https://i.postimg.cc/15VKGLgk/chrome-Zj-Y17-XSHk-L.png)
+![ScreenShot](https://i.postimg.cc/3NwjJvTN/chrome-582z0y-Vg-TG.gif)
 
 ## License
 
